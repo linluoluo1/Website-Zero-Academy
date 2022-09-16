@@ -1,0 +1,129 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.courses-main-wrapper {
+  width: 56.5rem;
+  max-height: 49.18rem;
+  position: relative;
+  margin-left: 4.5rem;
+  overflow: hidden;
+}
+
+.all-courses-slider-container {
+  width: 56.5rem;
+  max-height: 44.75rem;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 26.875rem 26.875rem;
+  grid-template-rows: 21rem 21rem;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+
+  padding-right: 1rem;
+  padding-bottom: 1.25rem;
+  margin: 0 auto;
+ 
+
+  & .all-courses-slider-container-item {
+    width: 26.875rem;
+    height: 21rem;
+    background: #ffffff;
+    border: 1px solid rgba(18, 35, 80, 0.05);
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 1.25rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+
+    // Cards layout
+    & .all-courses-slider-card-img {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    & span {
+      width: fit-content;
+      max-width: 7.75;
+      height: 1.5rem;
+      background-color: #eff0f5;
+      border-radius: 10px;
+      margin-right: 0.625rem;
+      padding: 0.3rem 0.5rem;
+    }
+
+    & h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.7rem;
+        letter-spacing: 2%;
+        margin: 1rem 0;
+    }
+
+
+    & .all-courses-card-text {
+        width: 22.5rem;
+font-weight: 400;
+line-height: 1.2rem;
+    }
+
+    & .all-courses-card-price {
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.29rem;
+        letter-spacing: 2%;
+        margin-right: 0.3rem;
+        padding: 0;
+    }
+
+    & .all-courses-card-old-price {
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+        letter-spacing: 2%;
+        color: #4E5A79;
+        padding: 0;
+        
+    }
+
+  }
+}
+
+
+.all-courses-card-duration {
+    display: flex;
+    width: 15rem;
+     & .duration-icon {
+        display: inline-block;
+        color: #8700FA;
+        margin-right: 0.5rem;
+     }
+
+     & .course-duration-info {
+        display: inline-block;
+        margin-right: 1.5rem;
+     }
+
+     & .play {
+        transform: scale(1.5);
+     }
+}
+// Navigation
+
+.all-courses-slider-navigation{
+    display: flex;
+    
+    margin-top: 2rem;
+    
+}
+
+.all-courses-chevron {
+  transform: scale(2);
+margin: 1rem auto;
+
+}

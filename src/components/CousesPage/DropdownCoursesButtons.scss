@@ -1,0 +1,53 @@
+
+
+.drop-down {
+    min-width: fit-content;
+    min-height:2.3rem ;
+    background-color: #EFF0F5;
+    max-width: fit-content;
+    color: transparent;
+    margin: 1.3rem 0.625rem 0 ;
+    overflow: hidden;
+    
+
+    border: none;
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+        background-color: #EFF0F5;
+        color: transparent;
+        
+    }
+    &:focus {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+        background-color: #EFF0F5;
+        color: transparent;
+    }
+    &:active {
+        transform: scale(1);
+        background-color: #EFF0F5;
+        color: transparent;
+   
+    }
+    &:checked {
+        transform: scale(1);
+        background-color: #EFF0F5;
+        color: transparent;
+        
+    }
+}
+
+.btn-first-left {
+    margin-left: 4.5rem;
+}
+
+
+.dropdown-inner-info {
+ 
+    height: 0;
+    overflow: visible;
+    color: #000;
+    
+
+}

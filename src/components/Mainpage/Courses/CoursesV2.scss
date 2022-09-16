@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.card2-bg-card {
+    max-width: 17.5rem;
+    min-height: 17.5rem;
+    max-height: 17.5rem;
+    border: none;
+    
+
+    
+}
+
+.heading-courses2 {
+    margin-left: 11rem;
+    margin-top: 8.75rem;
+}
+
+.course2-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card2-body {
+    border-radius: 1.2rem;
+}
+
+.bestseller{
+    position: absolute;
+    right: -1.1rem;
+    top: -1.2rem;
+    transform: scale(0.9);
+    }
+
+    .bestseller-text {
+        position: absolute;
+        transform: rotate(45deg);
+        top: 3rem;
+        right: 1rem;
+    }
+
+
+.duration {
+    color: #8700fa;
+   
+
+    & p {
+        color: #000;
+       font-size: small;
+    }
+}
+
+.new-price {
+    margin-top: -0.6rem;
+        font-size: 2rem;
+        font-stretch: expanded;
+        letter-spacing: 0.15rem;
+        font-weight: 400;
+}
+
+.old-price {
+    font-weight: 400;
+}
+
+
+.btn-all-courses2 {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    border-radius: .625rem;   
+    margin:auto;
+    width: 15.625rem;
+    height: 2.375rem;
+    background-color: #8700fa;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+        background-color: #8700fa;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card2-bg-card {
+        align-items: center;
+    }
+}

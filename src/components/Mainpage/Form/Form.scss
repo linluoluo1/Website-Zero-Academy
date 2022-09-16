@@ -1,0 +1,140 @@
+.form-wrapper {
+    position: relative;
+    width: 55rem;
+    height: 28rem;
+    margin: 7.5rem auto;
+ 
+  
+    background: #b35ffb;
+    border-radius: 1.25rem;
+    font-family: 'Ubuntu';
+  }
+
+  .form-info {
+    margin: 2rem 0 0 2rem;
+  }
+
+  .form-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+// 
+  
+    color: #ffffff;
+ 
+  }
+  
+  .form-text {
+
+  
+    font-family: "Ubuntu";
+ margin-top: 1.25rem;
+ margin-bottom: 1.5rem ;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.06rem;
+  
+  
+    color: #ffffff;
+  }
+
+  .input-form {
+max-width: 25.88rem;
+  }
+  
+  .input-name {
+    
+    width: 25.88rem;
+    height: 2.8rem;
+
+    background: #ffffff;
+    border-radius: 0.625rem;
+  }
+  
+  .input-phone {
+    
+    width: 25.88rem;
+    height: 2.8rem;
+    margin: 1.25rem 0;
+  
+    background: #ffffff;
+    border-radius: 0.625rem;
+  }
+  
+  .input-email {
+    width: 25.88rem;
+    height: 2.8rem;
+   
+  
+    background: #ffffff;
+    border-radius: 0.625rem;
+  }
+  
+  .input-text {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.94rem;
+    line-height: 1.06rem;
+  
+    letter-spacing: 0.025rem;
+    border: 0;
+  }
+  
+  .input-text::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .input-text::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .checkbox-group {
+    margin: 1.25rem 0;
+  }
+
+  .checkbox-label {
+    & span {
+        text-decoration: underline;
+        color: #000;
+    }
+  }
+  
+  .agreement-checkbox {
+    transform: scale(1.5) ;
+    
+    outline: none;
+  }
+  .submit-btn {
+    box-sizing: border-box;
+  
+
+    width: 10.8rem;
+    height: 2.5rem;
+  
+  border: none;
+       border-radius: 0.625rem;
+   background-color:#ff1dbe;
+   color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+  
+    // z-index: 2;
+  }
+  
+  .submit-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ffffff;
+  }
+  
+  .submit-btn:active {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  .form-img {
+    width: 15.34rem;
+    height: 16.56rem;
+  }
+  

@@ -1,0 +1,145 @@
+.footer-wrapper {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  z-index: -10;
+
+  /* Huyna sobachia vishla*/
+   width: 64rem;
+    height: 24rem;
+    
+ 
+    background: #061844;
+    
+  }
+
+  .footer-information{
+    margin-left: 4.625rem;
+    margin-top: 2.625rem;
+  }
+  
+ 
+  
+  .list {
+    max-width: fit-content;
+    list-style: none;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.94rem;
+    line-height: 1.06rem;
+    letter-spacing: 0.025rem;
+  
+    padding: 0;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .courses-list-1 {
+    
+    width: auto;
+    height: 5.188rem;
+    margin-right: 1.25rem;
+  }
+  .courses-list-2 {
+    
+    width: auto;
+    height: 6.563rem;
+   
+  }
+  
+  .info-heading {
+    
+    width: 12.5rem;
+    height: 1.44rem;
+  
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.44rem;
+  
+    letter-spacing: 0.025rem;
+  
+    color: #ff1dbe;
+  
+    padding-bottom: 0.625rem;
+    border-bottom: 2px solid #455ea0;
+  }
+  
+  .info-list {
+    
+    width: 7.125rem;
+    height: 7.94rem;
+  
+  }
+  
+  .logo-img  {
+    position: absolute;
+width: 50px;
+height: 40px; 
+bottom: 35px;
+transform: scale(1.5);
+
+
+
+& .logo1 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  border: none;
+  z-index: 13;
+  margin: 5px;
+  box-shadow: 0px 2px 4px #3F46BF;
+border-radius: 1px;
+}
+& .logo2 {
+  position: relative;
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  border: none;
+  transform: rotate(145deg);
+  margin:  8px 5px;
+z-index: -1;
+  box-shadow: 2px 0px 4px #3F46BF;
+  border-radius: 1px;
+  
+}
+
+&  .logo3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  border: none;
+  margin: 5px;
+  z-index: 3;
+  box-shadow: 0px 2px 4px #3F46BF;
+border-radius: 1px;
+}
+} 
+
+
+  
+.logo-name {
+  position: absolute;
+  bottom: 25px;
+  left: 150px;
+  padding-bottom: 5px;
+}
+
+.logo-name p {
+line-height: 0.95rem ;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+ .logo-name span {
+    font-weight: 300;
+    font-size: 0.95rem;
+ }
+  

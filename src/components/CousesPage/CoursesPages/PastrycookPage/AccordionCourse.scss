@@ -1,0 +1,42 @@
+.custom-toggle {
+    border: none;
+    background-color: transparent;
+    color: #8700FA;
+    
+    transform: scale(2);
+
+}
+
+.accordion-card-name{
+  
+    max-width: 70%;
+}
+
+.accordion-wrapper-container {
+    margin: 0;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(18, 35, 80, 0.05);
+    background-color: transparent;
+    
+}
+.accordion-card-wrapper{
+    border: 1px solid rgba(18, 35, 80, 0.05);
+       border-radius: 0;
+       box-shadow: 12px 12px 24px rgba(18, 35, 80, 0.08);
+       
+}
+
+.accordion-card-wrapper-top-radius{
+    border-radius: 1.25rem 1.25rem 0 0;
+    border: none;
+}
+
+.accordion-card-wrapper-bottom-radius{
+    border-radius:  0 0 1.25rem 1.25rem;
+    border: none;
+}
+.accordion-header-wrapper{
+background-color: transparent;
+border: none;
+}
+

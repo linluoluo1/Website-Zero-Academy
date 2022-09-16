@@ -1,0 +1,231 @@
+.course-page-wrapper {
+  width: 64rem;
+  height: 224.65rem;
+  margin: 0 auto;
+ padding-left: 4.5rem;
+ padding-right: 4.5rem;
+  padding-top: 2.56rem;
+  font-family: "Ubuntu";
+  position: relative;
+
+  overflow: hidden;
+ }
+
+.heading-pastrycook {
+  font-weight: 700;
+  font-size: 3.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.after-heading-text-pastrycook {
+  max-width: 26.8rem;
+  height: fit-content;
+  font-weight: 400;
+  margin-bottom: 0.875rem;
+}
+
+.number-free-place {
+  color: #ff1dbe;
+  font-weight: 400;
+}
+
+.logo-pastrycook-img {
+  margin-left: 6.25rem;
+}
+
+.price-info-card {
+  width: 12.68rem;
+  height: 9.68rem;
+  border: 1px solid #000;
+  background-color: #fff;
+  border: 1px solid rgba(18, 35, 80, 0.05);
+  box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 1.25rem;
+  padding: 1.25rem 1.5rem;
+
+  & p:first-child {
+    margin: 0;
+  }
+
+  & p:nth-child(2) {
+    margin: 0;
+    color: #8700fa;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  & p:nth-child(3) {
+    max-width: 9.8rem;
+  }
+}
+
+.btn-enroll {
+  background-color: #8700fa;
+  border: none;
+  font-weight: 500;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 15px rgba(98, 0, 185, 0.5);
+    background-color: #8700fa;
+  }
+
+  &:focus {
+    border: 2px 5px solid rgba(98, 0, 185, 0.5);
+    background-color: #8700fa;
+  }
+
+  &:active {
+    transform: scale(1);
+    background-color: #8700fa;
+    outline-width: 0rem;
+    box-shadow: none;
+  }
+
+}
+
+.btn-ask-question {
+  border: none;
+  font-weight: 700;
+}
+
+//  Info card about course(duration, material, entry-level etc)
+
+.course-info-container{
+  max-width: 55rem;
+  height: 10rem;
+
+  border: 2px solid #8700FA;
+border-radius: 1.25rem;
+margin-top: 6.25rem;
+margin-bottom: 6.25rem;
+padding: 2rem 2rem ;
+}
+
+.start-course-pastrycook {
+  max-width: 1rem;
+  height: auto;
+}
+
+.entry-level-course-pastrycook {
+  max-width: 1rem;
+  height: auto;
+}
+
+// Course description
+
+.pastrycook-course-description {
+  max-width: 38.25rem;
+  margin-bottom: 6.25rem;
+}
+
+// Course road-map 
+.course-map-wrapper{
+  margin-bottom: 6.25rem;
+}
+
+// About author
+.author-bg-img{
+   
+ padding:0;
+ margin-right: 0.7rem;
+ 
+}
+
+.author-social-img{
+ width: 1.5rem;
+ margin-right: 1rem;
+ max-width: 29rem;
+}
+
+.author-info-text{
+  max-width: 26.8rem;
+}
+
+// Examples of work
+
+// .examples-container{
+//   width: auto;
+//   height: 25rem  ;
+//   background-color: wheat;
+//   margin: 6.25rem auto;
+// }
+
+
+// Form to enroll
+
+.btn-enroll-course {
+  width: 12.8rem;
+  height: 2.5rem;
+  background-color: #ff1dbe;
+  box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+border: none;
+outline: none;
+
+&:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 15px rgba(98, 0, 185, 0.5);
+  background-color: #ff1dbe;
+}
+
+&:focus {
+  border: 2px 5px solid rgba(157, 0, 185, 0.5);
+  background-color: #ff1dbe;
+}
+
+&:active {
+  transform: scale(1);
+  background-color: #ff1dbe;
+  outline-width: 0rem;
+  box-shadow: none;
+}
+}
+
+
+// Background-blue-bubbles
+.course-vector-img1{
+  background-image: url('./media/Vector\ \(2\).png');
+  position: absolute;
+width: 33.5rem;
+height: 32rem;
+right:-10rem;
+top: 18.75rem;
+background-repeat: no-repeat;
+z-index: -3;
+}
+
+.course-vector-img2{
+  background-image: url('./media/Vector (3).png');
+  position: absolute;
+width: 36rem;
+height: 35.6rem;
+left: -11.5rem;
+top: 54rem;
+background-repeat: no-repeat;
+z-index: -3;
+}
+
+.course-vector-img3{
+  background-image: url('./media/Vector (4).png');
+  position: absolute;
+width: 22.8rem;
+height: 20.8rem;
+left:0;
+top: 150.56rem;
+background-repeat: no-repeat;
+z-index: -3;
+}
+
+.course-vector-img4{
+  background-image: url('./media/Vector (5).png');
+  position: absolute;
+width: 35.9rem;
+height: 35.6rem;
+right: -13rem;
+top: 180.43rem;
+background-repeat: no-repeat;
+z-index: -15;
+}

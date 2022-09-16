@@ -1,0 +1,66 @@
+.all-couses-wrapper {
+    font-family: 'Ubuntu';
+    width: 64rem;
+    height: 98.375rem;
+     margin: 0 auto; 
+     position: relative;
+     padding-top: 4.5rem;
+    
+     & h1 {
+       margin-left: 4.5rem;
+        margin-bottom: 0;
+        padding-top: 1.5rem;
+        font-weight: 700;
+        font-size: 3.125rem;
+     }
+
+}
+
+.input-group-wrapper {
+    width: 55rem ;
+    height:2.3rem;
+   margin: 1.5rem 4.5rem;
+
+}
+
+.form-placeholder {
+    max-width: 42.5rem;
+    height: auto;
+    background-color:#EFF0F5 ;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 1.4rem;
+    border-radius:0.625rem 0 0 0.625rem;
+    border: none;
+    outline: none;
+
+    &:active{
+        outline: none;
+    }
+
+    &::placeholder {
+        color: rgba(18, 35, 80, 0.5);
+            }
+
+    &:-ms-input-placeholder {
+        color: rgba(18, 35, 80, 0.5);
+    }
+
+    &::ms-input-placeholder {
+        color: rgba(18, 35, 80, 0.5);
+    }
+   
+  }
+
+
+
+
+
+
+.form-search-courses-btn {
+    width: 12.5rem;
+    height: auto;
+    background-color: #8700fa;
+    border-radius: 0 0.625rem 0.625rem 0 ;
+    border: none;
+}

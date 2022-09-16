@@ -1,0 +1,90 @@
+.enrollment-form-wrapper {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+box-shadow: 0.75rem 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+border-radius: 1.25rem;
+width:55rem ;
+height: 28rem;
+padding: 2.5rem 0;
+}
+
+.enrollment-form-img{
+    margin: auto;
+    width: 11rem;
+    height: 11.94rem ;
+    transform: scale(-1,1);
+}
+
+.enrollment-input-text {
+    background-color:#EFF0F5;
+    border: none;
+    padding-left: 1rem;
+}
+
+.enrollment-agreement-checkbox {
+    transform: scale(1.5) ;
+    
+    outline: none;
+  }
+  .enrollment-submit-btn {
+    box-sizing: border-box;
+  
+
+    width: 10.8rem;
+    height: 2.5rem;
+  
+  border: none;
+       border-radius: 0.625rem;
+   background-color:#ff1dbe;
+   color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+  
+    // z-index: 2;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 1px 15px rgba(98, 0, 185, 0.5);
+        background-color: #ff1dbe;
+      }
+      
+      &:focus {
+        border: 2px 5px solid rgba(157, 0, 185, 0.5);
+        background-color: #ff1dbe;
+      }
+      
+      &:active {
+        transform: scale(1);
+        background-color: #ff1dbe;
+        outline-width: 0rem;
+        box-shadow: none;
+      }
+    
+
+
+  }
+  
+ 
+  .course-price-card{
+
+    width: 8.25rem;
+    height: 9.56rem;
+    background-color: #8700fa;
+    margin: 0 auto;
+    margin-top: -2.54rem;
+    position: relative;
+    border-radius: 0 0 1.25rem 1.25rem ;
+    text-align: center;
+    padding-top: 4.3rem;
+  
+    color: white;
+
+    & p:nth-child(2) {
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin-bottom: 0;
+    }
+
+  }

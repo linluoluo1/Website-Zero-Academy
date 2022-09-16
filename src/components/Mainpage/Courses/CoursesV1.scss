@@ -1,0 +1,143 @@
+.cards-container {
+width:55rem ;
+height: 32rem;
+
+margin:8.75rem auto;
+position: relative;
+justify-content: start;
+font-family: 'Ubuntu';
+
+}
+.courses-heading {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+   
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+
+.card-wrapper {
+            width: 18rem;
+        height: 11.3rem;
+        background-color: #D554C6;
+     border: none;
+    border-radius: 1.25rem 1.25rem 0 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    margin-bottom: 13rem;
+    
+}
+
+.card-wrapper-2 {
+    background-color:#455EA0 ;
+}
+.card-wrapper-3 {
+    background-color: #8700FA;
+}
+
+
+.photo1{
+    width: 9.81rem ;
+    height: 11.31rem;
+    margin-left:9rem ;
+}
+.photo2{
+    width: 6.375rem ;
+    height: 9.5rem;
+    margin-left:11.6rem ;
+    margin-top: 1.81rem;
+}
+.photo3{
+    width: 6rem ;
+    height: 9rem;
+    margin-left:12rem ;
+    margin-top: 2.31rem;
+}
+
+.card-body-V1 {
+    height: 26.5rem;
+    background-color: white;
+    border-radius: 0 0  1.25rem 1.25rem;
+    font-family: 'Ubuntu';
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    line-height: 1.2rem;
+    max-height: 16.5rem;
+    min-height: 16.5rem;
+    
+}
+
+.mentor-name {
+ 
+    font-size: 0.87rem;
+    margin-top: 2rem;
+}
+
+.course-name {
+  font-size: 1.25rem ;
+    font-weight: 500;
+    
+}
+
+.btn-register {
+    position: absolute;
+width: 16rem;
+height: 2.375rem;
+
+background: #8700FA;
+border-radius: 10px;
+font-weight: 500;
+bottom: -15.5rem; 
+&:hover {
+    transform: scale(1.05);
+    box-shadow:2px 2px 10px rgba(69, 94, 160, .7);
+    border: none;
+    background-color: #7a00e5;
+}
+}
+
+
+
+.courses-link {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    text-decoration: none;
+    
+    font-weight: 500;
+    color: #FF1DBE;
+    &:hover {
+        transform: scale(1.1);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        color: #FF1DBE;
+    }
+}
+
+@media screen and (max-width: '768px') {
+    .cards-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        height: fit-content;
+    }
+    .card-wrapper {
+        margin-bottom: 18rem;
+    }
+
+    .courses-heading {
+        text-align: center;
+        margin: auto;
+        top: -6.5rem;
+    }
+
+    .courses-link{
+     top: 88rem;
+      left: auto;
+      right: auto;
+        z-index: 5;
+        position: relative;
+       
+    }
+    
+}

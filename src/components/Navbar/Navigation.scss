@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.nav {
+  width: 64rem;
+  height: 5rem;
+  margin: auto;
+  padding-left: 4.5rem;
+  box-shadow: 0.75rem 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+  z-index: 1;
+  font-family: "Ubuntu";
+}
+.nav-brand {
+  font-weight: 700;
+  size: 1.25rem;
+ 
+
+  & span {
+    background: linear-gradient(45.93deg, #8700fa 30%, #ff1dbe 50.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+}
+
+.nav-group {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+
+
+  :first-child {
+    margin-right: 1.87rem;
+    @media screen and (max-width: 768px) {
+      margin-right: 1rem;
+    }
+  }
+
+  :nth-child(2) {
+    margin-right: 1.87rem;
+    @media screen and (max-width: 768px) {
+      margin-right: 1rem;
+    }
+  }
+  :hover {
+    transform: scale(1.1);
+    color: #ff1dbe;
+    font-weight: 500;
+    text-shadow: 0px 0px 15px rgba(194, 39, 241, 0.8);
+  }
+  :active {
+    color: #ff1dbe;
+    font-weight: 500;
+  }
+  :focus {
+    text-shadow: 0px 0px 15px rgba(194, 39, 241, 0.8);
+    outline: none;
+    color: #ff1dbe;
+    font-weight: 500;
+  }
+}
+
+.nav-btn-signup {
+  margin-right: 4.5rem;
+  background: #8700fa;
+  font-style: normal;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+
+  width: 5.43rem;
+  height: 2.5rem;
+  border: none;
+}
+
+.nav-btn-signup:hover {
+  background-color: #ff1dbe;
+  transform: scale(1.1);
+}
+
+.nav-btn-login {
+  margin-right: 1.25rem;
+  background: #eff0f5;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #000;
+
+  width: 5.43rem;
+  height: 2.5rem;
+  border: none;
+}
+
+.nav-btn-login:hover {
+  background-color: #8700fa;
+  transform: scale(1.1);
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.nav-toggle {
+  align-items: center;
+}
+
+
+@media screen and (max-width: 992px) {
+  .nav-brand {
+       margin-left: 0px;
+  }
+
+
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav {
+    width: 90%;
+    margin: auto;
+  }
+
+  .nav-btn-signup {
+    margin-right: 1rem;
+  }
+ 
+}
+

@@ -1,0 +1,60 @@
+.course-carousel-container {
+    width: 880px;
+    height: 25rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    overflow: hidden;
+}
+
+.course-carousel-track{
+    display: flex;    
+    
+}
+
+.course-carousel-card-container{
+    width: 18.75rem;
+    height: 20rem;
+    flex-shrink: 0;
+    height: 20rem ;
+    
+    padding-right: 1.25rem;
+    box-sizing: border-box;
+    
+    margin-top: 1rem;
+    
+}
+
+.course-carousel-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+    background-color: antiquewhite;
+   
+}
+
+
+// Navigation 
+.course-carousel-nav-prev{
+   width: 2.5rem;
+    transform: scale(2);
+    cursor: pointer;
+    
+}
+.course-carousel-nav-next{
+    width: 2.5rem;
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.course-nav-btn {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    &:hover{
+        transform: scale(1.1);
+    }
+    &:active{
+        transform: scale(1);
+    }
+}
